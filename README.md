@@ -51,6 +51,7 @@ Things shipped as real npm / PyPI packages with CI and live users.
 | **[tytube](https://github.com/hallelx2/tytube)** | TypeScript port of `pytube`: YouTube metadata, streams, captions — no API key. Node / Bun / browser. _(npm, signed)_ |
 | **[youtube-transcript-ts](https://github.com/hallelx2/youtube-transcript-ts)** | TypeScript port of `youtube-transcript-api` with translation + multi-format. _(npm)_ |
 | **[yarngpt-sdk](https://github.com/hallelx2/yarngpt-sdk)** | Unofficial Python SDK for YarnGPT's Nigerian-accent TTS — 16 voices, async + CLI. _(PyPI)_ |
+| **[swarmtorch](https://github.com/hallelx2/swarmtorch)** ⭐ | PyTorch library of **120 metaheuristic optimization algorithms** (60 training + 60 HPO). GPU-accelerated, drop-in `torch.optim.Optimizer`. _(PyPI, paper in progress)_ |
 | **[bridgehook](https://github.com/hallelx2/bridgehook)** | Zero-install ngrok alternative — forwards webhooks to localhost via browser + Cloudflare Worker relay. |
 
 ---
@@ -95,7 +96,6 @@ Adjacent: **[phantomzero-vrf](https://github.com/hallelx2/phantomzero-vrf)** (So
 
 ### 🔬 Research & ML
 
-- **[swarmtorch](https://github.com/hallelx2/swarmtorch)** ⭐ — PyTorch library of **120 metaheuristic optimization algorithms** (60 training optimizers + 60 HPO searchers). Paper in progress.
 - **[arxhimedes](https://github.com/hallelx2/arxhimedes)** — SynthesisAI: PubMed research synthesis via LLMs + knowledge graphs with Graph-RAG.
 - **Archimedes (hackathon)** — AI-powered parametric design for robotic arms. Gemini 3 hackathon build.
 - **Skill-Based Test** — Research comparing skills-based personalization vs LoRA fine-tuning for AI personas.
