@@ -31,9 +31,9 @@ Most of what I finish starts as a friction point I've personally watched break d
 | Product | What it does | Link |
 |---|---|---|
 | **Vectorless** | Document retrieval for the reasoning era — LLMs navigate document maps instead of vector chunks. SDKs on npm + PyPI. | [vectorless.store](https://vectorless.store) |
-| **Voxtar** | SaaS product — closed beta. | [voxtar-web.vercel.app](https://voxtar-web.vercel.app) |
-| **Coursified** | SaaS learning platform — in build. | [coursify-web-two.vercel.app](https://coursify-web-two.vercel.app) |
-| **Hypatia** | AI learning platform that teaches with generated analogies + Markmap/Mermaid visualizations. | [hypatia-six.vercel.app](https://hypatia-six.vercel.app) |
+| **Voxtar** | SaaS product — closed beta. | [voxtar.hallelx2.com](https://voxtar.hallelx2.com) |
+| **Coursified** | SaaS learning platform — in build. | [coursified.app](https://coursified.app) |
+| **Hypatia** | AI learning platform that teaches with generated analogies + Markmap/Mermaid visualizations. | [hypatia.cv](https://hypatia.cv) |
 | **Helix AI** | Precision medicine application. | [helixai-taupe.vercel.app](https://helixai-taupe.vercel.app) |
 | **AuraHealth** | Voice triage + Interswitch escrow for Nigerian hospital payment queues. VAPI + Gemini 2.5 Pro. | [aurahealth-five.vercel.app](https://aurahealth-five.vercel.app) |
 | **Hallex Medical** | Clinician-side triage dashboard: Gemini 2.5 Pro clinical reasoning, RAG over call transcripts. | [st-mary-hospital-theta.vercel.app](https://st-mary-hospital-theta.vercel.app) |
@@ -117,7 +117,8 @@ Adjacent: **[phantomzero-vrf](https://github.com/hallelx2/phantomzero-vrf)** (So
 
 ### 📫 Find me
 
-- 🌍 **Current focus:** [vectorless.store](https://vectorless.store)
+- 🌍 **Portfolio:** [portfolio.hallelx2.com](https://portfolio.hallelx2.com)
+- 🚀 **Current focus:** [vectorless.store](https://vectorless.store)
 - 🐙 **GitHub:** [@hallelx2](https://github.com/hallelx2)
 - 💼 **Open to:** AI engineering roles, research collaborations, hackathon teams
 
