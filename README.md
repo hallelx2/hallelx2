@@ -4,14 +4,13 @@
 
 # Halleluyah — `@hallelx2`
 
-**Medical student. AI engineer. Builder from Nigeria.**
+**AI engineer. Builder from Nigeria.**
 
-I ship SaaS products, retrieval systems, agentic voice products, and Web3 infrastructure —
-often aimed at problems I've watched go unsolved in African healthcare and global developer tooling.
+I build production agentic systems with tool use, retrieval, and event-sourced state — across Claude Agent SDK, Vercel AI SDK, OpenAI tools, and VAPI. Three shipped in 2026 — Video Studio, AuraHealth, NotebookLM-clone — and the open-source retrieval substrate underneath them.
 
 [![Vectorless](https://img.shields.io/badge/Launching-vectorless.store-black?style=flat-square)](https://vectorless.store)
 [![Location](https://img.shields.io/badge/📍-Nigeria-008751?style=flat-square)]()
-[![Open to work](https://img.shields.io/badge/Open%20to-AI%20Engineering%20%7C%20Research%20%7C%20Hackathons-brightgreen?style=flat-square)]()
+[![Open to work](https://img.shields.io/badge/Open%20to-Contracts%20%7C%20AI%20Engineering%20%7C%20Research-brightgreen?style=flat-square)]()
 [![Followers](https://img.shields.io/github/followers/hallelx2?style=flat-square&label=Follow&color=blue)](https://github.com/hallelx2)
 
 </div>
@@ -20,9 +19,11 @@ often aimed at problems I've watched go unsolved in African healthcare and globa
 
 ### About
 
-I build at the intersection of **AI, medicine, and decentralized systems**. Medical school taught me to read pathology; a decade of tinkering taught me to ship. The two meet in the work I do: retrieval systems that reason instead of chunk, voice-first agents that triage real patients, desktop research tools for systematic reviews, and on-chain primitives for things that need to be trustless.
+I build agentic systems that do real work in production. Tool use, retrieval, approval gates, real users — across whichever runtime the product needs (Claude Agent SDK, Vercel AI SDK, OpenAI tools, VAPI, MCP). Underneath sits the retrieval layer I open-source as **Vectorless** — structure-preserving document retrieval, no chunking, no top-K, no vector DB.
 
-Most of what I finish starts as a friction point I've personally watched break down — hospital payment queues, PubMed synthesis, agent memory across sessions — and ends as a product someone else can use today.
+Most of what I finish starts as a friction point I have personally watched break down — hospital payment queues, document retrieval, agent memory across sessions — and ends as a product someone else can use today. I am also a medical student, which is why a lot of the harder problems on this page live somewhere near a hospital.
+
+**Available for contract work** in agentic systems, RAG / retrieval engineering, and applied healthcare AI.
 
 ---
 
@@ -53,18 +54,19 @@ Things shipped as real npm / PyPI packages with CI and live users.
 | **[yarngpt-sdk](https://github.com/hallelx2/yarngpt-sdk)** | Unofficial Python SDK for YarnGPT's Nigerian-accent TTS — 16 voices, async + CLI. _(PyPI)_ |
 | **[swarmtorch](https://github.com/hallelx2/swarmtorch)** ⭐ | PyTorch library of **120 metaheuristic optimization algorithms** (60 training + 60 HPO). GPU-accelerated, drop-in `torch.optim.Optimizer`. _(PyPI, paper in progress)_ |
 | **[bridgehook](https://github.com/hallelx2/bridgehook)** | Zero-install ngrok alternative — forwards webhooks to localhost via browser + Cloudflare Worker relay. |
+| **[llmgate](https://github.com/hallelx2/llmgate)** | LiteLLM for Go — provider-agnostic LLM client over Anthropic, OpenAI, Gemini with router, fallback, cost tracking, capability flags, composable middleware. |
 
 ---
 
-### 🧠 Agentic Systems (private, production)
+### 🧠 Agentic Systems (production builds)
 
-Big internal builds that aren't public yet — included so you know the scope.
+Big internal builds — included so you know the scope.
 
-- **Hercules** — Desktop research agent for systematic reviews & meta-analyses. Tauri 2 + Claude Agent SDK + multi-algorithm orchestration. Three interaction modes (manual / supervised / YOLO), Zotero + Mendeley integrations.
-- **Video Studio** — Agent-driven launch-video generator: reads a README, renders multi-format MP4 via Remotion. Tauri 2 + Claude Agent SDK.
-- **NotebookLM Clone** — Full-stack document AI with RAG, podcast generation, and voice chat. Python + Gradio + FastAPI + Qdrant.
-- **Enterprise AI consulting engagement** _(anonymized)_ — Built an AI call-answering system, SMS command center, and dashboard chatbot for a service-business vertical. LangGraph state machines, Twilio voice/SMS, LLM guardrails, multi-tenant DB tooling.
-- **AI Automation** — Bun/TS platform managing self-hosted n8n workflows via REST API.
+- **Video Studio** — Agent-driven launch-video generator: reads a README, drafts script, narrates with Kokoro TTS, composes HTML+GSAP scenes, renders MP4. Electron + Claude Agent SDK + HyperFrames.
+- **Flowstate** — Markdown-driven agent automation system. Define agents as plain `.md` files; bind them to your already-authenticated CLIs, MCP servers, and skills as tools. Spatial flow view of every step.
+- **NotebookLM Clone** — Self-hosted, local-first NotebookLM with three-stage retrieval (query expansion → hybrid pgvector + keyword → LLM rerank), self-critiquing deep-research agent, and two-host audio overviews. Next.js 15 + AI SDK v6 + pgvector.
+- **Hercules** — Desktop research agent for systematic reviews and meta-analyses. Tauri 2 + Claude Agent SDK + multi-algorithm orchestration.
+- **Enterprise AI consulting engagement** _(anonymized)_ — AI call-answering system, SMS command center, and dashboard chatbot for a service-business vertical. LangGraph state machines, Twilio voice/SMS, multi-tenant DB tooling.
 
 ---
 
@@ -72,7 +74,7 @@ Big internal builds that aren't public yet — included so you know the scope.
 
 Where my medical training shows up in the code.
 
-- **AuraHealth · Hallex Medical · Helix AI** — see *Live Products* above.
+- **AuraHealth · Hallex Medical · Helix AI · Voxtar** — see *Live Products* above.
 - **[Breast-Cancer](https://github.com/hallelx2/Breast-Cancer)** — analyzing public datasets to investigate breast cancer pathogenesis.
 - **[breast-cancer-detection](https://github.com/hallelx2/breast-cancer-detection)** — Streamlit classifier with radar-chart explanations + full metrics dashboard.
 - **[cancerag](https://github.com/hallelx2/cancerag)** — In-silico exploration of biased agonists for high-yield cancer pathways.
@@ -81,35 +83,36 @@ Where my medical training shows up in the code.
 
 ---
 
-### ⛓️ Web3 — The Scrunchy Stack
-
-A decentralized marketplace for renting game assets on Solana. Four repos, full stack.
-
-- **[scrunchy-contract](https://github.com/hallelx2/scrunchy-contract)** — Solana Anchor programs: asset-registry, marketplace, access-control.
-- **[scrunchy-backend](https://github.com/hallelx2/scrunchy-backend)** — NestJS: wallet auth, on-chain integration, rentals, Redis, cron.
-- **[scrunchy-cli](https://github.com/hallelx2/scrunchy-cli)** — Python CLI that scaffolds Scrunchy into Unity/game projects with wallet auth.
-- **[scrunchy-frontend](https://github.com/hallelx2/scrunchy-frontend)** — Next.js marketplace UI.
-
-Adjacent: **[phantomzero-vrf](https://github.com/hallelx2/phantomzero-vrf)** (Solana VRF betting), **[hallelx2-bank](https://github.com/hallelx2/hallelx2-bank)** (programmable cards), **chainvote** (Partisia on-chain voting).
-
----
-
 ### 🔬 Research & ML
 
 - **[arxhimedes](https://github.com/hallelx2/arxhimedes)** — SynthesisAI: PubMed research synthesis via LLMs + knowledge graphs with Graph-RAG.
-- **Archimedes (hackathon)** — AI-powered parametric design for robotic arms. Gemini 3 hackathon build.
+- **swarmtorch** — see *Open-Source* above. Paper in progress on metaheuristic-vs-gradient training and HPO.
 - **Skill-Based Test** — Research comparing skills-based personalization vs LoRA fine-tuning for AI personas.
 - **gonforcement-learning** — Terminal-native RL playground in pure Go: Q-learning, DQN, PPO with live Bubble Tea TUI.
+
+---
+
+### ⛓️ Web3 — adjacent work
+
+A decentralized marketplace for renting game assets on Solana. Four repos, full stack — kept here for completeness.
+
+- **[scrunchy-contract](https://github.com/hallelx2/scrunchy-contract)** — Solana Anchor programs.
+- **[scrunchy-backend](https://github.com/hallelx2/scrunchy-backend)** — NestJS: wallet auth, on-chain integration, rentals.
+- **[scrunchy-cli](https://github.com/hallelx2/scrunchy-cli)** — Python CLI that scaffolds Scrunchy into Unity/game projects.
+- **[scrunchy-frontend](https://github.com/hallelx2/scrunchy-frontend)** — Next.js marketplace UI.
+- Adjacent: **[phantomzero-vrf](https://github.com/hallelx2/phantomzero-vrf)**, **[hallelx2-bank](https://github.com/hallelx2/hallelx2-bank)**, **chainvote**.
 
 ---
 
 ### 🧰 Stack
 
 **Languages** TypeScript · Python · Rust · Go · R
-**AI/ML** PyTorch · LangGraph · LangChain · MCP · Claude Agent SDK · Gemini 2.5 Pro · Graph-RAG · Actian VectorAI DB · Qdrant
-**Voice** VAPI · Deepgram · ElevenLabs · YarnGPT · Twilio
+**Agent runtimes** Claude Agent SDK · Vercel AI SDK · OpenAI tools · VAPI · MCP · LangGraph
+**LLMs** Claude Opus/Sonnet/Haiku · Gemini 2.5 Pro/Flash · GPT-4o · YarnGPT
+**Retrieval / data** Vectorless · pgvector · Qdrant · Actian VectorAI DB · Graph-RAG
+**Voice** Deepgram · ElevenLabs · Kokoro · YarnGPT · Twilio · VAPI
 **Web** Next.js 15 · Fastify · NestJS · Hono · FastAPI · Gradio
-**Desktop** Tauri 2 · Remotion
+**Desktop** Electron · Tauri 2 · Remotion · HyperFrames
 **Web3** Solana · Anchor · VRF
 **Infra** Neon · Drizzle · Supabase · Cloudflare Workers · QStash · R2 · Docker · Vercel · n8n
 
@@ -120,7 +123,7 @@ Adjacent: **[phantomzero-vrf](https://github.com/hallelx2/phantomzero-vrf)** (So
 - 🌍 **Portfolio:** [portfolio.hallelx2.com](https://portfolio.hallelx2.com)
 - 🚀 **Current focus:** [vectorless.store](https://vectorless.store)
 - 🐙 **GitHub:** [@hallelx2](https://github.com/hallelx2)
-- 💼 **Open to:** AI engineering roles, research collaborations, hackathon teams
+- 💼 **Open to:** Contracts, AI engineering roles, research collaborations
 
 <div align="center">
 
