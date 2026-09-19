@@ -8,6 +8,7 @@
 
 I build production agentic systems with tool use, retrieval, and event-sourced state — across Claude Agent SDK, Vercel AI SDK, OpenAI tools, and VAPI. Three shipped in 2026 — Video Studio, AuraHealth, NotebookLM-clone — and the open-source retrieval substrate underneath them.
 
+[![hallelx2 labs](https://img.shields.io/badge/hallelx2%20labs-hallelx2.com-0b5fd7?style=flat-square)](https://hallelx2.com)
 [![Vectorless](https://img.shields.io/badge/Launching-vectorless.store-black?style=flat-square)](https://vectorless.store)
 [![Location](https://img.shields.io/badge/📍-Nigeria-008751?style=flat-square)]()
 [![Open to work](https://img.shields.io/badge/Open%20to-Contracts%20%7C%20AI%20Engineering%20%7C%20Research-brightgreen?style=flat-square)]()
@@ -18,6 +19,8 @@ I build production agentic systems with tool use, retrieval, and event-sourced s
 ---
 
 ### About
+
+Everything on this page now lives under one roof: **[hallelx2 labs](https://hallelx2.com)** — the products healthcare, education and the AI ecosystem need, with every claim measured in public.
 
 I build agentic systems that do real work in production. Tool use, retrieval, approval gates, real users — across whichever runtime the product needs (Claude Agent SDK, Vercel AI SDK, OpenAI tools, VAPI, MCP). Underneath sits the retrieval layer I open-source as **Vectorless** — structure-preserving document retrieval, no chunking, no top-K, no vector DB.
 
@@ -120,6 +123,7 @@ A decentralized marketplace for renting game assets on Solana. Four repos, full 
 
 ### 📫 Find me
 
+- 🧪 **hallelx2 labs:** [hallelx2.com](https://hallelx2.com)
 - 🌍 **Portfolio:** [portfolio.hallelx2.com](https://portfolio.hallelx2.com)
 - 🚀 **Current focus:** [vectorless.store](https://vectorless.store)
 - 🐙 **GitHub:** [@hallelx2](https://github.com/hallelx2)
